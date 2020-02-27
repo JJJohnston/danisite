@@ -121,6 +121,21 @@ font-family: "Droid Sans", sans-serif;
 }
 
 @media (max-width: 768px) {
+  
+    .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0;
+    height: 70px;
+    align-items: center;
+  }
+
+  .main-nav {
+    display: flex;
+    margin-right: 30px;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
 
   .header {
     text-align: center;
