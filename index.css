@@ -1,36 +1,74 @@
-body { 
-  background-image: linear-gradient(
-    135deg,
-    rgb(201, 201, 201) 0%,
-    rgb(206, 205, 206) 69%,
-    rgb(252, 250, 250) 89%
-) !important;
-  font-family: "Nunito", sans-serif;
+.header {
+  padding: 140px 0 60px 0;
+  background: url("images/daniBackground.jpg") no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  height: 50%;
+  border-bottom: 2px solid #ffffff;
 }
 
-.jumbotron {
-  background: url("banner.jpg");
-  background-size: cover;
-  background-position: center;
-  font-family: 'Cinzel Decorative', 'cursive';
+.header h1 {
   color: white;
+  font-family: "Pacifico", cursive;
+  font-size: 7.5em;
   text-align: center;
 }
 
+.header p {
+  color: white;
+  font-size: 1.3em;
+  font-family: "Droid Sans", sans-serif;
+  text-align: center;
+}
+
+.header .btn {
+  transition-duration: 0.4s;
+  padding: 5px 50px 5px 50px;
+  float: right;
+}
+
+.header .btn:hover {
+  background-color: rgba(211, 128, 3, 0.726);
+  color: white;
+}
+
+
+
+body { 
+  position: center;
+  bottom: 0px;
+  width: 100%;
+  font-family: "Nunito", sans-serif;
+}
+
+.cont1 {
+  background: "purple";
+}
 
 
 #mainNavbar {
   font-size: 1rem;
   font-weight: 50;
+  color: black;
   background-image: linear-gradient(
     135deg,
-    rgb(44, 44, 44) 0%,
-    rgb(98, 97, 99) 69%,
-    rgb(126, 126, 126) 89%
+    rgba(236, 157, 10, 0.603) 0%,
+    rgba(235, 177, 70, 0.623) 69%,
+    rgba(245, 206, 132, 0.267) 89%
 ) !important;
-font-family: "Nunito", sans-serif;
+font-family: "Droid Sans", sans-serif;
+
 
 }
+
+.img-circle {
+  border-radius: 50%;
+  background-position-y: center;
+  background-position-x: center;
+  background-repeat: no-repeat;
+
+}
+  
 
 .blurb h2 {
   font-weight: bolder;
@@ -39,7 +77,7 @@ font-family: "Nunito", sans-serif;
 }
 
 .blurb p {
-  font-weight: 100;
+  font-weight: 500;
   font-size: 1.25rem;
   line-height: 2;
 }
@@ -50,20 +88,24 @@ font-family: "Nunito", sans-serif;
 }
 
 #mainNavbar .nav-link {
-  color: white;
-}
-
-#mainNavbar .nav-link:hover {
   color: black;
 }
 
-#mainNavbar .navbar-brand {
+#mainNavbar .nav-link:hover {
   color: white;
+}
+
+#mainNavbar .navbar-brand {
+  color: black;
   font-size: 1rem;
 }
 
+#mainNavbar .nav li.active a {
+  color: white;
+}
+
 #headingGroup h1 {
-  font-family: 'Cinzel Decorative', 'cursive';
+  font-family: "Droid Sans", sans-serif;
   font-weight: 100;
   font-size: 1.5rem;
 }
@@ -71,14 +113,32 @@ font-family: "Nunito", sans-serif;
 .navbar.scrolled {
   background-image: linear-gradient(
     135deg,
-    rgb(126, 126, 126) 89%
-    rgb(98, 97, 99) 69%,
-    rgb(44, 44, 44) 0%,
+    rgb(207, 143, 24) 89%
+    rgb(182, 125, 19) 69%,
+    rgb(102, 75, 1) 0%,
 ) !important;
   transition: background 1s;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 768px) {
+
+  .header {
+    text-align: center;
+    padding-top: 20%;
+  }
+
+  .header h1 {
+    font-size:5em;
+  }
+
+  .header p {
+    font-size:1em;
+  }
+
+  .header img {
+    padding-top: 10%;
+  }
+
   #headingGroup h1 {
     font-weight: 100;
     font-size: 1rem;
@@ -91,4 +151,147 @@ footer {
   font-size: .5rem;
   font-weight: bolder;
 
+}
+
+/*CONT*/
+.cont {
+  padding: 70px 0 70px;
+  text-align: center;
+}
+
+.cont h1 {
+  font-size: 3.5em;
+  font-family: "Pacifico", cursive;
+  font-weight: 100;
+  padding: 0 0 20px;
+}
+
+.cont h2 {
+  font-family: "Pacifico", cursive;
+  font-size: 1.5em;
+}
+
+.cont p {
+  padding-bottom: 20px;
+  font-family: "Droid Sans", sans-serif;
+  font-size: 1em;
+}
+
+.cont ul li{
+  font-family: "Droid Sans", sans-serif;
+  font-size: 1em;
+}
+
+/*ABOUT*/
+
+.about {
+  background: url("images/daniBackground.jpg") no-repeat center center;
+  text-align:center;
+  color:white;
+  padding: 70px 0 70px;
+}
+
+.about h1 {
+  font-size:3.5em;
+  font-family: "Pacifico", cursive;
+  padding-bottom: 20px;
+}
+
+.about img {
+  padding: 15px 0 35px;
+}
+
+.about p {
+  padding-bottom: 20px;
+  font-family: "Droid Sans", sans-serif;
+  font-size: 1em;
+}
+
+/*CLINIC*/
+
+.clinic {
+  color: black;
+  padding: 70px 0 70px;
+  text-align: center;
+}
+
+.clinic img {
+  padding: 20px 0 20px;
+}
+
+.clinic h1{
+  padding-bottom:25px;
+  font-family: "Pacifico", cursive;
+  font-size: 3.5em;
+}
+
+.clinic h2 {
+  font-family: "Droid Sans", sans-serif;
+  font-size: 1.5em;
+}
+
+.clinic p {
+  padding-bottom: 20px;
+  font-family: "Droid Sans", sans-serif;
+  font-size: 1em;
+}
+
+/*HOURS*/
+
+.hours {
+  background: url("images/daniBackground.jpg") no-repeat center center;
+  color:white;
+  padding: 70px 0 70px;
+  text-align: center;
+}
+
+.hours h1{
+  padding-bottom:25px;
+  font-family: "Pacifico", cursive;
+  font-size: 3.5em;
+}
+
+.hours p {
+  padding-bottom: 20px;
+  font-family: "Droid Sans", sans-serif;
+  font-size: 1em;
+}
+
+/*CONTACT*/
+
+.contact {
+  background: url("images/daniBackground.jpg") no-repeat center center;
+  color:white;
+  padding: 100px 0 100px;
+  text-align: center;
+}
+
+.contact h1{
+  padding-bottom:25px;
+  font-family: "Pacifico", cursive;
+  font-size: 3.5em;
+}
+
+.clinic img {
+  padding: 20px 0 20px;
+  padding-bottom: 20px;
+}
+
+
+.contact p {
+  padding-bottom: 20px;
+  font-family: "Droid Sans", sans-serif;
+  font-size: 1em;
+}
+
+.contact .fa {
+  padding: 20px 10px 50px;
+}
+
+.contact ul {
+  padding: 20px 10px 50px;
+}
+
+.contact li {
+  padding: 20px, 10px 50px;
 }
