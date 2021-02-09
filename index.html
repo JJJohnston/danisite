@@ -30,7 +30,7 @@
     <body data-spy="scroll" data-target="#mainNavbar" data-offset="70">
 
       <!-- NavBar -->
-        <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
+        <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-sm py-0 fixed-top">
           <!--<div class="container-fluid px-0 fixed-top">-->
             <a href="#" class="navbar-brand"><i class="fas fa-spa"></i> DANIELLE MORRISON - RMT</a>
             <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
@@ -74,7 +74,7 @@
             </div>
 
             <div class="col-lg-6 col-md-6 col-sn-12 col-xs-12 center">
-                <img class="img-responsive" src="invertedFlower.png"/>
+                <img class="img-responsive" src="images/invertedFlower.png"/>
               </div>
           </div>
         </div>
@@ -87,7 +87,7 @@
                   <div class="row">
                     <div class="col-lg-12 col-md-12">
                       <h1>Massage Therapy</h1>
-                      <img src="lotus2.png" alt="" class="d-sm-inline d-md-inline d-lg-inline">
+                      <img src="images/lotus2.png" alt="" class="d-sm-inline d-md-inline d-lg-inline">
                       <p></p>
                 <p class="lead">Massage therapy is a regulated profession in BC, and as an evidence based medical modality, it can be covered
                   by most major health insurance companies.</p>
@@ -96,7 +96,7 @@
                     </div>
                   </div>
 
-                  <div class="row">
+                  <div class="row" id="conditionsList">
                     <div class="col-lg-12 col-md-12">
                       <h2>Conditions treated include (but not limited to):</h2>
                     </div>
@@ -146,14 +146,14 @@
                 <div class="row">
                   <div class="col-lg-12 col-md-12">
                     <h1 id="about">About</h1>
-                    <img src="lotus3.png" alt="" class="d-sm-inline d-md-inline d-lg-inline">
+                    <img src="images/lotus3.png" alt="" class="d-sm-inline d-md-inline d-lg-inline">
                     <p class="lead"></p>
-                    <img class="img-circle img-responsive" src="massage12.jpg" width="400" height="400" frameborder="0" position="middle" style="float:middle">
+                    <img class="img-circle img-responsive" src="images/massage12.jpg" width="400" height="400" frameborder="0" position="middle" style="float:middle" >
                 </div>
 
                 <div class="row">
                   <div class="col-lg-3 col-md-3">
-                    <blockquote>
+                    <blockquote id="aboutQuote1">
                       <p>Danielle is an RMT, originally from the Okanagan, and after living abroad for a 
                         few years, she settled in Victoria where she graduated from the 2200 hour program at the West Coast 
                         College of Massage Therapy. She has always had an interest in health, wellness and movement, leading 
@@ -162,7 +162,7 @@
                     </blockquote>
                   </div>
                   <div class="col-lg-3 col-md-3">
-                    <blockquote>
+                    <blockquote id="aboutQuote2">
                       <p>She is a firm believer in the effect massage has on the nervous system, and its benefits towards 
                         the mind and mental health, as well as the physical body. She strives to bring a sense of calm 
                         relaxation to every treatment, while helping clients reach their individual therapeutic goals. 
@@ -170,13 +170,13 @@
                     </blockquote>
                   </div>
                   <div class="col-lg-3 col-md-3">
-                    <blockquote>
+                    <blockquote id="aboutQuote3">
                       <p>She places emphasis on a client-centered approach to treatment, and knows how important it is to 
                         listen to each and every person and what they are seeking through massage therapy.</p>
                     </blockquote>
                   </div>
                   <div class="col-lg-3 col-md-3">
-                    <blockquote>
+                    <blockquote id="aboutQuote4">
                       <p>Danielle enjoys treating a variety of issues and has taken a continuing education course on 
                         pregnancy massage, as she had developed a special interest in prenatal and postpartum care during 
                         her own pregnancy. She is passionate about continually learning and growing in her practice. 
@@ -196,17 +196,17 @@
             <div class="row">
               <div class="col-lg-12 col-md-12">
                 <h1 id="clinic">Clinic</h1>
-                <img src="lotus2.png" alt="" class="d-sm-inline d-md-inline d-lg-inline">
+                <img src="images/lotus2.png" alt="" class="d-sm-inline d-md-inline d-lg-inline">
             </div>
           </div>
 
             <div class="row">
-              <div class="col-lg-3 col-md-3 col-sm-6">
+              <div class="col-lg-3 col-md-3 col-sm-offset-6 col-xs-offset-12">
                 <iframe class="img-circle img-responsive" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2647.559108236389!2d-123.32879174862353!3d48.426608138862825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548f746810275d61%3A0x8b635cd28ee35aa6!2s1864%20Oak%20Bay%20Ave%2C%20Victoria%2C%20BC%20V8R%201C5!5e0!3m2!1sen!2sca!4v1570915861932!5m2!1sen!2sca" 
-                  width="350" height="350" frameborder="0" position="right" style="float:right"></iframe>
+                  width="350" height="350" frameborder="0" id="map"></iframe>
               </div>
 
-              <div class="col-lg-3 col-md-3 col-sm-6">
+              <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                 <p class="lead" position="middle" style="float:middle">
                   <h2>Office:</h2>
                   <br>Danielle is working along other talented healthcare practitioners who share the same passion 
@@ -214,7 +214,7 @@
                   free parking at the back of the clinic.</p>
               </div>
 
-              <div class="col-lg-3 col-md-3 col-sm-6">
+              <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                 <p class="lead" position="middle" style="float:middle">
                   <h2>Hours:</h2>
                   <br> Tuesday: 9:00AM - 11:30AM
@@ -226,11 +226,15 @@
                   <br> V8R 1C5</p>
               </div>
 
-              <div class="col-lg-3 col-md-3 col-sm-6">
-                <img class="img-circle img-responsive" src="office.jpg" width="380" height="380" frameborder="0" position="left" style="float:left">
+              <div class="col-lg-3 col-md-3 col-sm-offset-6 col-xs-offset-12">
+                <img class="img-circle img-responsive" src="images/office.jpg" width="380" height="380" frameborder="0" id="office">
               </div>
 
             </div>
+
+          
+
+
           </div>
         </div>
         </div>
@@ -242,12 +246,12 @@
         <div class="row">
           <div class="col-lg-12 col-md-12">
             <h1 id="contact">Contact</h1>
-            <img src="lotus3.png" alt="" class="d-sm-inline d-md-inline d-lg-inline">
+            <img src="images/lotus3.png" alt="" class="d-sm-inline d-md-inline d-lg-inline">
             <br>
             <br>
 
               <ul class="list-inline">
-                <li class="list-inline-item"><a href="https://www.instagram.com/danielle.rmt/"><span style="color:white"><i class="fab fa-instagram-square fa-3x"></i></a></span></li>
+                <li class="list-inline-item"><a href="https://www.instagram.com/danielle.rmt/"><span><i class="fab fa-instagram-square fa-3x"></i></a></span></li>
                 <li class="list-inline-item"><a href="https://www.facebook.com/dani.morrison.rmt/"><span style="color:white"><i class="fab fa-facebook-square fa-3x"></i></a></span></li>
                 <li class="list-inline-item"><a href="mailto:dmorrison.rmt@gmail.com"><span style="color:white"><i class="fas fa-envelope fa-3x"></i></a></span></li>
                 <li class="list-inline-item"><a href="http://ritualmedicine.janeapp.com/login"><span style="color:white"><i class="fas fa-book fa-3x"></i></a></span></li>
@@ -256,8 +260,9 @@
               <div class="row">
                 <div class="col-lg-12 col-md-12">
                   <ul class="list-inline">
-                    <li class="list-inline-item"><i class="fas fa-mobile-alt fa-2x"></i> 1 778 400 6362</li>
-                    <li class="list-inline-item"><i class="fas fa-map-marker-alt fa-2x"></i> 1864 Oak Bay Ave.</li>
+                    <li class="list-inline-item"><a href="tel:1-788-400-6362"><span><i class="fas fa-mobile-alt fa-2x"></i></a>&nbsp;&nbsp;&nbsp;1 778 400 6362</span></li>
+                    <li class="list-inline-item"><a href="https://www.google.com/maps/place/1864+Oak+Bay+Ave,+Victoria,+BC+V8R+1C5/@48.4266046,-123.3287864,17z/data=!3m1!4b1!4m5!3m4!1s0x548f746810275d61:0x8b635cd28ee35aa6!8m2!3d48.4266046!4d-123.3265977">
+                      <span><i class="fas fa-map-marker-alt fa-2x"></i></a>&nbsp;&nbsp;&nbsp;1864 Oak Bay Ave.</span></li>
 
                   </ul>
                 </div>
@@ -288,9 +293,10 @@
     </body>
     <footer>
       
-      <img class="img-circle img-responsive" src="pwwd.png" width="40" height="40">
+      <img class="img-circle img-responsive" src="images/pwwd.png" width="40" height="40">
       <br>
       <p>Page built by PacWest Web Designs &copy 2019</p>
     </footer>
     </html>
+
 
