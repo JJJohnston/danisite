@@ -292,6 +292,12 @@ footer {
     padding-bottom: 3em;
 
   }
+  
+   .about .imge-circle {
+    height:250px;
+    width:250px;
+  }
+
   .about h1 {
     padding-top: -11px;
   }
