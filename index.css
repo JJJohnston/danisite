@@ -1,6 +1,6 @@
 .header {
   padding: 140px 0 60px 0;
-  background: url("images/daniBackground.jpg") no-repeat center center;
+  background: url("./daniBackground.jpg") no-repeat center center;
   background-size: cover;
   width: 100%;
   height: 50%;
@@ -246,7 +246,7 @@ footer {
 ********************************************************************************************/
 
 .about {
-  background: url("images/daniBackground.jpg") no-repeat center center;
+  background: url("./daniBackground.jpg") no-repeat center center;
   text-align:center;
   color:white;
   padding: 70px 0 70px;
@@ -288,7 +288,7 @@ footer {
   .about { 
     margin-top: 1px;
     padding: 0;
-    background: url("images/daniBackground.jpg");
+    background: url("./daniBackground.jpg");
     padding-bottom: 3em;
 
   }
@@ -409,7 +409,7 @@ footer {
 ********************************************************************************************/
 
 .hours {
-  background: url("images/daniBackground.jpg") no-repeat center center;
+  background: url("./daniBackground.jpg") no-repeat center center;
   color:white;
   padding: 70px 0 70px;
   text-align: center;
@@ -432,7 +432,7 @@ footer {
 ********************************************************************************************/
 
 .contact {
-  background: url("images/daniBackground.jpg") no-repeat center center;
+  background: url("./daniBackground.jpg") no-repeat center center;
   color:white;
   padding: 100px 0 100px;
   text-align: center;
