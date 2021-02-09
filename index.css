@@ -223,7 +223,7 @@ footer {
 .cont ul li{
   font-family: "Droid Sans", sans-serif;
   font-size: 1em;
-  list-style-image: url('./images/petalIcons.png');
+  list-style-image: url('./petalIcons.png');
   list-style-position: inside;
 }
 
