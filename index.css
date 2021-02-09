@@ -1,3 +1,5 @@
+.wrapper { min-height: 100vh; overflow: hidden; }
+
 .header {
   padding: 140px 0 60px 0;
   background: url("./daniBackground.jpg") no-repeat center center;
@@ -200,6 +202,8 @@ footer {
 .cont {
   padding: 70px 0 70px;
   text-align: center;
+  width: 100%;
+  display: flex;
 }
 
 .cont h1 {
@@ -250,6 +254,8 @@ footer {
   text-align:center;
   color:white;
   padding: 70px 0 70px;
+  display: flex;
+  width: 100%;
 }
 
 .about h1 {
@@ -274,7 +280,7 @@ footer {
   border: 3px solid black;
   border-radius: 25px;
   border-top: none;
-  height: 450px;
+  height: 100%;
   color: white;
 }
 
@@ -292,10 +298,10 @@ footer {
     padding-bottom: 3em;
 
   }
-  
-   .about .imge-circle {
-    height:250px;
-    width:250px;
+
+  .about .img-circle {
+    height:320px;
+    width:300px;
   }
 
   .about h1 {
@@ -304,7 +310,7 @@ footer {
 
   .about blockquote {
     width: 75%;
-    height: 75%;
+    height: 100%;
     margin: 0 auto;
     margin-bottom: 2em;
 
@@ -358,11 +364,13 @@ footer {
 .clinic #map {
   position: right;
   float: right;
+  margin: 0 auto;
 }
 
 .clinic #office {
   position: left;
   float: left;
+  margin: 0 auto;
 }
 
 
