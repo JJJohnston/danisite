@@ -471,6 +471,28 @@ footer {
     }
     }
 
+ @media (max-width: 376px) {
+    .clinic #map {
+      margin: 0 auto;
+      margin-top: 2em;
+      margin-bottom: 2em;
+      width: 300px;
+      height: 300px;
+      transform: translateX(-9%);
+      
+      
+    }
+  
+    .clinic #office {
+      margin: 0 auto;
+      margin-top: 2em;
+      margin-bottom: 2em;
+      height: 330px;
+      width: 330px;
+      transform: translateX(5%);  
+    }
+    }
+
 /*******************************************************************************************
                                             HOURS
 ********************************************************************************************/
