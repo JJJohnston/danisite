@@ -290,16 +290,6 @@ footer {
   margin-top: 75px;
 }
 
-@media (max-width: 700px) {
-
-.about blockquote {
-  width: 75%;
-  height: 100%;
-  margin: 0 auto;
-  margin-bottom: 2em;
-
-}
-}
 
 @media (max-width: 768px) {
   .about { 
@@ -339,6 +329,17 @@ footer {
     margin-top: -15px;
   }
 
+}
+
+@media (max-width: 700px) {
+
+.about blockquote {
+  width: 75%;
+  height: 100%;
+  margin: 0 auto;
+  margin-bottom: 2em;
+
+}
 }
 
 /*******************************************************************************************
