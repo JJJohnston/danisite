@@ -290,6 +290,17 @@ footer {
   margin-top: 75px;
 }
 
+@media (max-width: 700px) {
+
+.about blockquote {
+  width: 75%;
+  height: 100%;
+  margin: 0 auto;
+  margin-bottom: 2em;
+
+}
+}
+
 @media (max-width: 768px) {
   .about { 
     margin-top: 1px;
@@ -371,6 +382,28 @@ footer {
   position: left;
   float: left;
   margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .clinic #map {
+    margin: 0 auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: 300px;
+    height: 300px;
+    transform: translateX(-70%);
+    
+    
+  }
+
+  .clinic #office {
+    margin: 0 auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    height: 330px;
+    width: 330px;
+    transform: translateX(65%);  
+  }
 }
 
 @media (max-width: 736px) {
